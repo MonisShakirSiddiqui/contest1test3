@@ -1,0 +1,101 @@
+*{
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+</style>
+}
+.navbar1{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: white;
+    position: static;
+    top: 0px;
+}
+#navlinks{
+    display: flex;
+    align-items: center; 
+}
+#navlinks>ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+#navlinks>ul>li>a{
+    text-decoration: none; 
+    color: black;
+    font-size: 16px;
+    padding-inline: 20px;
+}
+
+.button1{
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+}
+.firstbox {
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+  }
+  #image1{
+    height: 20%;
+    width: 100%;
+  }
+.ourspecial{
+    text-align: center;
+}
+#fastlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#fastlinks>ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+#fastlinks>ul>li>a{
+    text-decoration: none; 
+    color: black;
+    font-size: 16px;
+    padding-inline: 20px;
+}
+.crispcc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button2{
+    background-color: white;
+    color: orangered;
+    border-color: orangered;
+    border-radius: 10px;
+}
+.button2:hover{
+    background-color: orangered;
+    color: white;
+}
+.specialrec{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    align-content: center;
+    margin-bottom: 60px;
+}
+.cantactus1{
+    width: 85vw;
+    height: 550px;
+    background-color: #f94a3d;
+    border-radius: 40px;
+    margin: auto;   
+}
+#footer1{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    border: white;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
